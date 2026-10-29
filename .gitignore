@@ -1,0 +1,13 @@
+game_original/
+ghidra-master/
+tools/
+*.zip
+*.tar.xz
+port/UnityProject/Library/
+port/UnityProject/Logs/
+port/UnityProject/obj/
+port/UnityProject/Temp/
+port/UnityProject/UserSettings/
+port/Build/
+notes/*.bin
+notes/*.dll
