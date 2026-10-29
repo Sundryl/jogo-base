@@ -10,8 +10,10 @@ e `RELATORIO.md`. Original: `game_original/` (**SOMENTE LEITURA**). Tudo local, 
 | 2026-10-29 | Fase 2-3 | plans/02-instalacao-ferramentas.md (ver abaixo) |
 
 ## Estado das fases
-- [x] **Fase 0** Auditoria (ambiente + identificação) — concluída
-- [ ] Fase 1 Unity Editor — próxima (install 2021.3.36f1 + licença)
+- [x] **Fase 0** Auditoria (ambiente + identificação) — concluída; tools em ~/tools
+- [~] Fase 1 Unity Editor — rodando em background (2021.3.36f1 + linux-il2cpp; licença Personal OK)
+- [~] Fase 3 (paralelo) — REA metadata OK (v29: 13.681 tipos, 101.296 métodos; ev_c5b9b65c8eea);
+      Cpp2IL dll_il_recovery em background → work/cpp2il
 - [ ] Fase 2 Extração (AssetRipper → port/UnityProject)
 - [ ] Fase 3 Scripts (IL2CPP → Cpp2IL + Ghidra/REA)
 - [ ] Fase 4 Montar/compilar projeto
