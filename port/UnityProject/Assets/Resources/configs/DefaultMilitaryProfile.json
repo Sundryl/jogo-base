@@ -1,0 +1,224 @@
+{
+  "Mode": "BuiltInDefault",
+  "UnitDefinitions": [
+    {
+      "UnitKey": "Infantry",
+      "DisplayName": "Infantry",
+      "BaseCombatPower": 1.0,
+      "RecruitmentWeight": 1.1,
+      "MovementSpeedMultiplier": 1.0,
+      "RecruitmentModifiers": {
+        "BiomeModifiers": {
+          "Hot desert": 0.9,
+          "Cold desert": 0.95,
+          "Temperate deciduous broadleaf forest": 1.05,
+          "Tropical rainforest": 0.95
+        },
+        "MountainModifier": 1.0
+      },
+      "AttackModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 1.05,
+          "Steppe": 1.05
+        },
+        "MountainModifier": 1.0
+      },
+      "DefenseModifiers": {
+        "BiomeModifiers": {
+          "Tropical seasonal forest": 1.05,
+          "Temperate deciduous broadleaf forest": 1.05,
+          "Wetland": 1.05
+        },
+        "MountainModifier": 1.0
+      }
+    },
+    {
+      "UnitKey": "Archer",
+      "DisplayName": "Archer",
+      "BaseCombatPower": 0.95,
+      "RecruitmentWeight": 0.95,
+      "MovementSpeedMultiplier": 0.95,
+      "RecruitmentModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 0.75,
+          "Steppe": 0.75,
+          "Hot desert": 0.7,
+          "Cold desert": 0.8,
+          "Tropical seasonal forest": 1.35,
+          "Temperate deciduous broadleaf forest": 1.5,
+          "Tropical rainforest": 1.3,
+          "Subtropical evergreen broadleaf forest": 1.35,
+          "Taiga": 1.25,
+          "Tundra": 1.2,
+          "Snow-covered land": 1.15,
+          "Wetland": 0.85
+        },
+        "MountainModifier": 1.4
+      },
+      "AttackModifiers": {
+        "BiomeModifiers": {
+          "Tropical seasonal forest": 1.1,
+          "Temperate deciduous broadleaf forest": 1.1,
+          "Tropical rainforest": 1.15,
+          "Subtropical evergreen broadleaf forest": 1.15
+        },
+        "MountainModifier": 1.1
+      },
+      "DefenseModifiers": {
+        "BiomeModifiers": {
+          "Tropical seasonal forest": 1.15,
+          "Temperate deciduous broadleaf forest": 1.15,
+          "Tropical rainforest": 1.2,
+          "Subtropical evergreen broadleaf forest": 1.2
+        },
+        "MountainModifier": 1.2
+      }
+    },
+    {
+      "UnitKey": "Shield",
+      "DisplayName": "Shield",
+      "BaseCombatPower": 1.05,
+      "RecruitmentWeight": 0.9,
+      "MovementSpeedMultiplier": 0.9,
+      "RecruitmentModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 0.75,
+          "Steppe": 0.8,
+          "Hot desert": 0.7,
+          "Cold desert": 0.8,
+          "Temperate deciduous broadleaf forest": 1.1,
+          "Tropical rainforest": 0.9,
+          "Subtropical evergreen broadleaf forest": 0.95,
+          "Taiga": 1.45,
+          "Tundra": 1.55,
+          "Snow-covered land": 1.5,
+          "Wetland": 1.15
+        },
+        "MountainModifier": 1.75
+      },
+      "AttackModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 0.95,
+          "Steppe": 0.95
+        },
+        "MountainModifier": 1.05
+      },
+      "DefenseModifiers": {
+        "BiomeModifiers": {
+          "Wetland": 1.2,
+          "Taiga": 1.15,
+          "Tundra": 1.15,
+          "Snow-covered land": 1.15
+        },
+        "MountainModifier": 1.3
+      }
+    },
+    {
+      "UnitKey": "Cavalry",
+      "DisplayName": "Cavalry",
+      "BaseCombatPower": 1.25,
+      "RecruitmentWeight": 1.0,
+      "MovementSpeedMultiplier": 1.2,
+      "RecruitmentModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 2.1,
+          "Steppe": 2.2,
+          "Hot desert": 1.65,
+          "Cold desert": 1.45,
+          "Tropical seasonal forest": 0.55,
+          "Temperate deciduous broadleaf forest": 0.6,
+          "Tropical rainforest": 0.3,
+          "Subtropical evergreen broadleaf forest": 0.35,
+          "Taiga": 0.55,
+          "Tundra": 0.5,
+          "Snow-covered land": 0.45,
+          "Wetland": 0.3
+        },
+        "MountainModifier": 0.38
+      },
+      "AttackModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 1.45,
+          "Steppe": 1.45,
+          "Hot desert": 1.25,
+          "Cold desert": 1.25,
+          "Tropical seasonal forest": 0.8,
+          "Temperate deciduous broadleaf forest": 0.8,
+          "Tropical rainforest": 0.7,
+          "Subtropical evergreen broadleaf forest": 0.7,
+          "Wetland": 0.75
+        },
+        "MountainModifier": 0.7
+      },
+      "DefenseModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 1.2,
+          "Steppe": 1.2,
+          "Tropical seasonal forest": 0.85,
+          "Temperate deciduous broadleaf forest": 0.85,
+          "Tropical rainforest": 0.75,
+          "Subtropical evergreen broadleaf forest": 0.75,
+          "Hot desert": 1.2,
+          "Cold desert": 1.2,
+          "Wetland": 0.8
+        },
+        "MountainModifier": 0.75
+      }
+    },
+    {
+      "UnitKey": "Elite",
+      "DisplayName": "Elite",
+      "BaseCombatPower": 1.35,
+      "RecruitmentWeight": 0.3,
+      "MovementSpeedMultiplier": 1.05,
+      "RecruitmentModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 0.8,
+          "Steppe": 0.8,
+          "Hot desert": 0.7,
+          "Cold desert": 0.75,
+          "Tropical seasonal forest": 1.1,
+          "Temperate deciduous broadleaf forest": 1.15,
+          "Subtropical evergreen broadleaf forest": 1.05,
+          "Taiga": 1.25,
+          "Tundra": 1.2,
+          "Snow-covered land": 1.2,
+          "Wetland": 0.9
+        },
+        "MountainModifier": 1.3
+      },
+      "AttackModifiers": {
+        "BiomeModifiers": {
+          "Savannah": 1.05,
+          "Steppe": 1.05,
+          "Tropical seasonal forest": 1.05,
+          "Temperate deciduous broadleaf forest": 1.05,
+          "Tropical rainforest": 1.05,
+          "Subtropical evergreen broadleaf forest": 1.05
+        },
+        "MountainModifier": 1.1
+      },
+      "DefenseModifiers": {
+        "BiomeModifiers": {
+          "Tropical seasonal forest": 1.1,
+          "Temperate deciduous broadleaf forest": 1.1,
+          "Tropical rainforest": 1.1,
+          "Subtropical evergreen broadleaf forest": 1.1,
+          "Taiga": 1.1,
+          "Tundra": 1.1,
+          "Snow-covered land": 1.1
+        },
+        "MountainModifier": 1.15
+      }
+    }
+  ],
+  "VisualBindings": {
+    "Infantry": "Infantry",
+    "Archer": "Archer",
+    "Shield": "Shield",
+    "Cavalry": "Cavalry",
+    "Elite": "Elite"
+  },
+  "EmbeddedPngAssets": [],
+  "Metadata": {}
+}

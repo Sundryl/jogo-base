@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 33724804207875695}
+  - component: {fileID: 23618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1E-06}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33724804207875695
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &23618682377417806
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 2
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebc8b1f62d04d794bb4527657714fe2f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62ba350a65cb4608a3851b54270f70e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  riverColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  DefaultMat: {fileID: 2100000, guid: 128384917b074964f920422b44f646de, type: 2}
+  LineMat: {fileID: 2100000, guid: 9b14c69e5eb8166479ca8249c7b57e07, type: 2}
+  OceanMat: {fileID: 2100000, guid: ebc8b1f62d04d794bb4527657714fe2f, type: 2}
+  SimpleUnlit: {fileID: 0}
+  CellPrefab: {fileID: 4730242686860875, guid: 9ce28694a0e230d4d8dbd825c03f46c0, type: 2}
+  CityPrefab: {fileID: 0}
+  ProvinceCenterPrefab: {fileID: 0}
+  CapitalPrefab: {fileID: 0}
+  PortPrefab: {fileID: 0}
+  FortressPrefab: {fileID: 0}
+  AttackArrowPrefab: {fileID: 0}
+  AttackArrowPrefabWidth: {fileID: 0}
+  AttackArrowShapePrefab: {fileID: 0}
+  SeaRoutesPrefab: {fileID: 0}
+  seaRouteLineWidth: 0.37
+  seaRouteDashLength: 1.01
+  seaRouteGapLength: 0.56
+  seaRouteDashOffset: 0
+  m_UseArmyIconSVG: 0
+  PeacePrefab: {fileID: 0}
+  AlliancePrefab: {fileID: 0}
+  ChineseFont: {fileID: 0}
+  KoreanFont: {fileID: 0}
+  EnglishFont: {fileID: 0}
+  EnglishMapFont: {fileID: 0}
+  ChineseMapFont: {fileID: 0}
+  EnglishCityNameFont: {fileID: 0}
+  BoundWidth: 0
+  BoundHeight: 0
+  BoundOffsetX: 0
+  BoundOffsetY: 0
+  Width: 0
+  Height: 0
+  PolyCount: 10000
+  cellsDesired: 30000
+  mapSizeOutput: 1
+  LatitudeOutput: 50
+  stateCount: 10
+  IsHeightMapGenOnly: 0
+  IsUseCurrentBiom: 0
+  provinceCount: 60
+  isGenerateOnStartFinished: 0
+  isReViewHistory: 0
+  sealevel: 20
+  randomSeed: 1
+  randomInt: 0
+  provinceObjects: []
+  provinceBiomHeightObjects: []
+  mapCoordinateObjects: []
+  shallowSeaDarkLines: []
+  mapCoordinateLabels: []
+  isDisplayBurgLabel: 1
+  IsShowSuggestionMessage: 1
+  cellsX: 0
+  cellsY: 0
+  spacing: 0
+  siteCount: 0
+  PrecInput: 100
+  TemperatureModify: 0
+  tradeObjects: []
+  isRenderShallowSea: 0
+  isGamePaused: 0
+  isGameStarted: 0
+  isAllowAutoDiplomacy: 1
+  isAllowVassalAutoRebel: 1
+  isAllowRebel: 1
+  isAllowAlliance: 1
+  isEnableVassal: 1
+  isAllowCivilWar: 1
+  isAllowFamilyRebellion: 1
+  battleSwordPrefab: {fileID: 0}
+  eventSystem: {fileID: 0}
+  isNeedInitJsEnv: 1
+  provincePrefab: {fileID: 0}
+  provinceBurgCells:
+  mapframes: []
+  sdf: {fileID: 0}
+  statemanagerupdateTime: 0
+  provincemanagerupdateTime: 0
+  timemanagerupdateTime: 0
+  armymanagerupdateTime: 0
+  warmanagerupdateTime: 0
+  zoomSpeed: 10
+  isWallPaperMode: 0
+  DisplayIndex: 0
+  useJsMapGen: 1
+  useJsStateProvinceCultureBurgGen: 0
+  template:
+  isNoiseHeightGenerator: 1
+  isClickToGen: 0
+  isMultiContinent: 0
+  stateIDClickToGen: 0
+  isGenBlankConquerable: 0
+  isGenBlankUnConquerable: 0
+  NoiseFrequecy: 0.005
+  Ocataves: 5
+  lacunarity: 3
+  gain: 0.5
+  LandPercentage: 0.2
+  EdgePower: 2
+  biomTexture: {fileID: 0}
+  exponent: 20
+  expandFactor: 0.1
+  sizeFactor: 0.1
+  ClickToGenCenterCell: 0
+  MountainPrefabs: []
+  plantsPrefabs: []
+  MapCoordinateLinePrefab: {fileID: 0}
+  textPrefab: {fileID: 0}
+  contentTransform: {fileID: 0}
+  scrollRect: {fileID: 0}
+  deepParchmentColor: {r: 0.76, g: 0.7, b: 0.5, a: 1}
+  shallowLineColor: {r: 0.76, g: 0.7, b: 0.5, a: 1}
+  coastLineColor: {r: 0.76, g: 0.7, b: 0.5, a: 1}
+  provinceBorderColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  stateLineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  shallowColor: {r: 0.38431373, g: 0.5137255, b: 0.69411767, a: 1}
+  seaRouteColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  coastLineOffsetColor: {r: 0.76, g: 0.7, b: 0.5, a: 1}
+  deepColor: {r: 0.30588236, g: 0.43529412, b: 0.6156863, a: 1}
+  deepSea: 13
+  IsShowTime: 0
+  IsShowMajorMessage: 1
+  _isDisplayPopulation: 0
+  IsEnableRandomStyle: 0
+  _isEnableBiomeIcon: 1
+  isAutoHideBottomPanel: 0
+  IsAutoAbandonIsolatedProvinces: 1
+  IsAssistAlliesOccupyLand: 1
+  provinceBiomHeightMaterial: {fileID: 0}

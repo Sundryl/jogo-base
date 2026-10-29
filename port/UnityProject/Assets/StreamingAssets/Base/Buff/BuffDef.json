@@ -1,0 +1,25 @@
+{
+    "buffs": 
+    [
+        {
+            "sDisplayName": "战斗力爆表",
+            "sDescription": "我是一个非常厉害的Buff",
+            "sKey": "CombatEfficiencyUp",
+            "eType": 0,
+            "fDuration": 0,
+            "isPermanent": true,
+            "eComputeArea": 0,
+            "fValue": 0.5
+        },
+        {
+            "sDisplayName": "累了",
+            "sDescription": "满脸写着打不动",
+            "sKey": "CombatEfficiencyDown",
+            "eType": 0,
+            "fDuration": 100,
+            "isPermanent": false,
+            "eComputeArea": 0,
+            "fValue": -0.2
+        }
+    ]
+}

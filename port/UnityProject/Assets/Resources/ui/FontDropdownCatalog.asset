@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8214326dfb8d2408b51cf3a32685a101, type: 3}
+  m_Name: FontDropdownCatalog
+  m_EditorClassIdentifier:
+  m_Fonts:
+  - Id: Avara SDF
+    DisplayName: Avara
+    FontAsset: {fileID: 11400000, guid: 2da79481d59136f488efc4a499ba249a, type: 2}
+  - Id: TW-Kai-98_1 SDF
+    DisplayName: TW Kai
+    FontAsset: {fileID: 11400000, guid: 05459f5d188540d4882f508adad51b8b, type: 2}
+  - Id: MoriaCitadel SDF
+    DisplayName: Moria Citadel
+    FontAsset: {fileID: 11400000, guid: 023450caa3de3f54bbe7ad0f9a7eefee, type: 2}
+  - Id: PlayfairDisplay-VariableFont_wght SDF
+    DisplayName: Playfair
+    FontAsset: {fileID: 11400000, guid: 723c9a57c12ddd74ea8ef3df9e5250cb, type: 2}
+  - Id: Roboto-Regular SDF
+    DisplayName: Roboto
+    FontAsset: {fileID: 11400000, guid: 6d38039eeeb3995418e924c59a251ec0, type: 2}
+  - Id: Inconsolata-SemiBold SDF
+    DisplayName: Inconsolata
+    FontAsset: {fileID: 11400000, guid: 4f8c0c95cec060d418540cd40aceaf9f, type: 2}
+  - Id: NotoSerifCJK
+    DisplayName: NotoSerifCJK
+    FontAsset: {fileID: 11400000, guid: 51c3ce704c9ba014e93cfc28cc35af6e, type: 2}
+  - Id: NotoSansCJK
+    DisplayName: NotoSansCJK
+    FontAsset: {fileID: 11400000, guid: 98f0973a3a3880a40918dff3ed21c346, type: 2}

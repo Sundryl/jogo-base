@@ -1,0 +1,16 @@
+using System;
+
+namespace Crosstales.FB.Wrapper
+{
+	[Flags]
+	internal enum FOS
+	{
+		FOS_ALLOWMULTISELECT = 0x200,
+		FOS_FILEMUSTEXIST = 0x1000,
+		FOS_FORCEFILESYSTEM = 0x40,
+		FOS_NOCHANGEDIR = 8,
+		FOS_OVERWRITEPROMPT = 2,
+		FOS_PATHMUSTEXIST = 0x800,
+		FOS_PICKFOLDERS = 0x20
+	}
+}

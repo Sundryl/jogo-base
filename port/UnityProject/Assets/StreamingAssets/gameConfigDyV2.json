@@ -1,0 +1,78 @@
+{
+  "Version": 4,
+  "DeepSeaColor": {
+    "R": 0.345098048,
+    "G": 0.5058824,
+    "B": 0.890196145,
+    "A": 1.0
+  },
+  "ShallowSeaColor": {
+    "R": 0.282352954,
+    "G": 0.6,
+    "B": 0.9333334,
+    "A": 1.0
+  },
+  "SeaRouteColor": {
+    "R": 0.5254902,
+    "G": 0.5254902,
+    "B": 0.5254902,
+    "A": 1.0
+  },
+  "StateLineColor": {
+    "R": 0.0784313753,
+    "G": 0.5294118,
+    "B": 1.0,
+    "A": 1.0
+  },
+  "CoastLineColor": {
+    "R": 0.372549027,
+    "G": 0.372549027,
+    "B": 0.372549027,
+    "A": 1.0
+  },
+  "StateNameColor": {
+    "R": 0.0,
+    "G": 0.0,
+    "B": 0.0,
+    "A": 1.0
+  },
+  "ProvinceBorderColor": {
+    "R": 0.7,
+    "G": 0.7,
+    "B": 0.7,
+    "A": 1.0
+  },
+  "StateBorderWidth": 0.388860971,
+  "CoastBorderWidth": 0.395617962,
+  "DarkBorderShadowWidth": 0.004743821,
+  "StateNameScale": 2.0,
+  "IconDisplayDistance": 160.0,
+  "BurgCityLabelScale": 0.0,
+  "ArmyLabelScale": 0.9676962,
+  "StateMapTransparency": 1.0,
+  "DisplayBiomHeightMap": true,
+  "DisplayArmy": true,
+  "DisplayAttackArrow": true,
+  "DisplayBurgName": true,
+  "DisplayBurgObject": true,
+  "DisplayParchment": true,
+  "DisplayParchmentTexture": false,
+  "DisplayDarkBorder": true,
+  "DisplayFullName": true,
+  "DisplayProvinceBorder": true,
+  "UseHeightMapBackground": 1.0,
+  "UseGrayScale": 0.0,
+  "IsEnableDarkBorder": 0.0,
+  "LanguageIndex": "Chinese",
+  "isAutoHideBottomPanel": false,
+  "IsEnableRandomStyle": false,
+  "musicVolume": 0.626654267,
+  "currentPresetIndex": -1,
+  "IsShowMajorMessage": true,
+  "IsShowTime": false,
+  "AttackArrowDisplayDistance": 160.0,
+  "cameraZoomSpeed": 10.0,
+  "IsShowDouyinAnnoucement": false,
+  "IsEnableMapCoordinate": true,
+  "IsEnableBiomeIcon": true
+}

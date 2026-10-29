@@ -1,0 +1,148 @@
+{
+    "traits": 
+    [
+        {
+            "name": "FightToTheEnd",
+            "description": "永远不会投降，直到最后一兵一卒",
+            "effects": [
+            {
+                "key": "IsFightToTheEnd",
+                "isBool": true,
+                "value": 1.0
+            }
+            ]
+        },
+        {
+            "name": "StrengthenCore",
+            "description": "核心省份上限占比增加",
+            "effects": [
+            {
+                "key": "CoreProvinceRate",
+                "isBool": false,
+                "value": 0.3
+            }
+            ]
+        },
+        {
+            "name": "ManifestDestiny",
+            "description": "命由天定，一往无前，天赋荣光，唯我独尊",
+            "effects": [
+            {
+                "key": "IsManifestDestiny",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "BullyTheWeak",
+            "description": "选择最弱小的国家发动进攻",
+            "effects": [
+            {
+                "key": "IsBullyTheWeak",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "DefyTheStrong",
+            "description": "选择最强大的国家发动攻击",
+            "effects": [
+            {
+                "key": "IsDefyTheStrong",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "TotalWar",
+            "description": "与每一个接触的国家发生战争",
+            "effects": [
+            {
+                "key": "IsTotalWar",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "WellTrained",
+            "description": "无视负面地形对军队战斗力的削弱",
+            "effects": [
+            {
+                "key": "IsWellTrained",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "CoreDefense",
+            "description": "在核心领土上战斗力增加",
+            "effects": [
+            {
+                "key": "CoreDefenseEfficiencyBoost",
+                "isBool": false,
+                "value": 1.5
+            }
+            ]
+        },
+        {
+            "name": "CavalryTradition",
+            "description": "军队移动速度增加",
+            "effects": [
+            {
+                "key": "IsCavalryTradition",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "HomelandDefense",
+            "description": "在防守的时候战斗力增加",
+            "effects": [
+            {
+                "key": "IsHomelandDefense",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "Conqueror",
+            "description": "在进攻时战斗力增加",
+            "effects": [
+            {
+                "key": "IsConqueror",
+                "isBool": true,
+                "value": 1
+            }
+            ]
+        },
+        {
+            "name": "SiegeCapture",
+            "description": "能够快速的占领地方行省",
+            "effects": [
+            {
+                "key": "SiegeDamageBoost",
+                "isBool": false,
+                "value": 1.5
+            }
+            ]
+        },
+        {
+            "name": "FieldCombatElite",
+            "description": "能够快速的击败敌人的军队",
+            "effects": [
+            {
+                "key": "FieldCombatEfficiency",
+                "isBool": false,
+                "value": 1.5
+            }
+            ]
+        }
+    ]
+}
