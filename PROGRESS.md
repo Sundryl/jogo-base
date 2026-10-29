@@ -3,6 +3,12 @@
 Missão: reconstruir projeto Unity em `port/UnityProject/`, build Linux x64 em `port/Build/`
 e `RELATORIO.md`. Original: `game_original/` (**SOMENTE LEITURA**). Tudo local, sem push.
 
+## Histórico de planos extras
+
+| data       | fase    | plano                                |
+|------------|---------|--------------------------------------|
+| 2026-10-29 | Fase 2-3 | plans/02-instalacao-ferramentas.md (ver abaixo) |
+
 ## Estado das fases
 - [x] **Fase 0** Auditoria (ambiente + identificação) — concluída
 - [ ] Fase 1 Unity Editor — próxima (install 2021.3.36f1 + licença)
